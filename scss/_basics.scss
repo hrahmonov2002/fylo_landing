@@ -1,0 +1,31 @@
+/* Desktop view */
+html {
+  
+  background: $color-bg-main;
+  box-sizing: border-box;
+  font-size:  100%;
+}
+
+*, *::after, *::before{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: auto;
+  
+}
+
+img{
+  display:block;
+  width:100%;
+  height: auto;
+}
+
+a, a:hover, a:focus{
+  text-decoration: none;
+  color: $color-neutral;
+}
+
+
